@@ -1,1 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
+@import '~font-awesome/scss/font-awesome';
+
+@font-face { font-family: 'Poppins Black'; src: url('../fonts/Poppins-Black.ttf')  format('truetype') }
+@font-face { font-family: 'Poppins Bold'; src: url('../fonts/Poppins-Bold.ttf')  format('truetype') }
+@font-face { font-family: 'Poppins Extra Bold'; src: url('../fonts/Poppins-ExtraBold.ttf')  format('truetype') }
+@font-face { font-family: 'Poppins Semi Bold'; src: url('../fonts/Poppins-SemiBold.ttf')  format('truetype') }
+@font-face { font-family: 'Poppins Regular'; src: url('../fonts/Poppins-Regular.ttf')  format('truetype') }
+@font-face { font-family: 'Poppins Medium'; src: url('../fonts/Poppins-Medium.ttf')  format('truetype') }
+
+#vazilla-off-navbar .navbar-brand { font-family: 'Poppins Extra Bold', Arial, Helvetica, sans-serif; } 
+#vazilla-off-navbar .navbar-brand .f-box { background-color: #0084ff; color: #ffffff; padding: 4px 4px; border-radius: 12px; letter-spacing: 0.15em; }
+#vazilla-off-navbar .navbar-brand .s-box { letter-spacing: 0.15em; margin-left: 3px; }
