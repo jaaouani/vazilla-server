@@ -33,7 +33,9 @@ class AccountController extends Controller {
         } else { return response()->json(['status' => 'error', 'message' => $this->validator->errors()->first()], 401); }
     }
     public function forgot() {}
-    public function logout() {}
+    public function logout() {
+        
+    }
     
     private function _verifyAuthentication() {
         $this->validator = Validator::make($this->request->all(), [

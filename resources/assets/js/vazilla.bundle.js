@@ -1,2 +1,4 @@
 require('./bootstrap');
-require('./vazilla.application.js');
+require('./vazilla-off.home.js');
+require('./vazilla-off.login.js');
+require('./vazilla-off.register.js');
