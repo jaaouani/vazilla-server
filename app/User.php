@@ -7,7 +7,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable {
     
-    use HasApiToken, Notifiable;
+    use HasApiTokens, Notifiable;
 
     protected $table = 'users';
 
