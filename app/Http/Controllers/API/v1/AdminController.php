@@ -27,8 +27,8 @@ class AdminController extends Controller {
             ]); $response = Route::dispatch($request); return response()->json(['status' => 'success', 'message' => json_decode((string) $response->getContent(), true)], 200);
         } else { return response()->json(['status' => 'error', 'message' => $this->validator->errors()->first()], 401); }
     }
-    public function forgot() {
-    }
+    public function forgot() {}
+    public function logout() {}
 
     private function _verifyAuthentication() {
         $this->validator = Validator::make($this->request->all(), [

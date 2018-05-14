@@ -15,6 +15,7 @@
 @font-face { font-family: 'Nunito Semi Bold'; src: url('../fonts/Nunito-SemiBold.ttf')  format('truetype') }
 @font-face { font-family: 'Nunito Regular'; src: url('../fonts/Nunito-Regular.ttf')  format('truetype') }
 
+/* off header styling */
 #vazilla-off-navbar .navbar-brand { font-family: 'Poppins Extra Bold', Arial, Helvetica, sans-serif; position: relative; top: -2px; } 
 #vazilla-off-navbar .navbar-brand .f-box { background-color: #0084ff; color: #ffffff; padding: 3px 3px; border-radius: 12px; letter-spacing: 0.15em; font-size: 13px; }
 #vazilla-off-navbar .navbar-brand .s-box { letter-spacing: 0.15em; margin-left: 3px; font-size: 13px; color: #000000; }
@@ -28,3 +29,23 @@
 #vazilla-wrapper .carousel { position: relative; top: 10px; }
 #vazilla-wrapper .carousel { position: relative; width: 100%; height:auto; max-height: 40vh; }
 #vazilla-carousel .carousel-inner .carousel-item img { max-height: 40vh; height: auto; width: 100vw; }
+
+/* admin login form */
+#admin-login-form-container { position: relative; top: 100px; }
+#admin-login-form-container .admin-login-form .password-group { position: relative; top: -20px; }
+#admin-login-form-container .admin-login-form .form-label-group input { background-color: #ffffff; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05); font-size: 15px; font-family: 'Nunito Bold', Arial, Helvetica, sans-serif; }
+#admin-login-form-container .admin-login-form { width: 100%; max-width: 320px; padding: 15px; margin: auto; }
+#admin-login-form-container .admin-login-form .form-label-group { position: relative; margin-bottom: 1rem; }
+#admin-login-form-container .admin-login-form .form-label-group > input, #admin-login-form-container .admin-login-form .form-label-group > label { padding: var(--input-padding-y) var(--input-padding-x); }
+#admin-login-form-container .admin-login-form .form-label-group > label { position: relative; top: -30px; left: 30px; display: block; width: 100%; margin-bottom: 0; line-height: 1.5; color: #0084ff; border: 1px solid transparent; border-radius: .25rem; transition: all .1s ease-in-out; font-family: 'Nunito Semi Bold', Arial, Helvetica, sans-serif; font-size: 12px; }
+#admin-login-form-container .admin-login-form .form-label-group input::-webkit-input-placeholder { color: transparent; }
+#admin-login-form-container .admin-login-form .form-label-group input:-ms-input-placeholder { color: transparent; }
+#admin-login-form-container .admin-login-form .form-label-group input::-ms-input-placeholder { color: transparent; }
+#admin-login-form-container .admin-login-form .form-label-group input::-moz-placeholder { color: transparent; }
+#admin-login-form-container .admin-login-form .form-label-group input::placeholder { color: transparent; }
+#admin-login-form-container .admin-login-form .form-label-group input:not(:placeholder-shown) { padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3)); padding-bottom: calc(var(--input-padding-y) / 3); padding-top: 13px; }
+#admin-login-form-container .admin-login-form .form-label-group input:not(:placeholder-shown) ~ label { padding-top: calc(var(--input-padding-y) / 3); padding-bottom: calc(var(--input-padding-y) / 3); top: -38px; bottom: 15px; font-size: 10px; color: #0084ff; font-family: 'Nunito Bold', Arial, Helvetica, sans-serif; }
+#admin-login-form-container .admin-login-form .form-label-group input { height: 40px; padding-left: 40px; padding-top: 13px; }
+#admin-login-form-container .admin-login-form .form-label-group input:focus + label { padding-top: calc(var(--input-padding-y) / 3); padding-bottom: calc(var(--input-padding-y) / 3); top: -38px; bottom: 15px; font-size: 8px; color: #0084ff; font-family: 'Nunito Bold', Arial, Helvetica, sans-serif; }
+#admin-login-form-container .admin-login-form .btn { position: relative; top: -45px; font-family: 'Nunito Extra Bold', Arial, Helvetica, sans-serif; border-radius: 15px; }
+#admin-login-form-container .admin-login-form .btn .fa { font-weight: bold; }

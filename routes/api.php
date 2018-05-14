@@ -17,4 +17,5 @@ Route::group(['prefix' => '/v1/profile'], function() {
 Route::group(['prefix' => '/v1/admin'], function() {
         Route::middleware('guest:admin-api')->post('/login', 'API\v1\AdminController@login');
         Route::middleware('guest:admin-api')->post('/forgot', 'API\v1\AdminController@forgot');
+        Route::middleware('auth:admin-api')->post('/logout', 'API\v1\AdminController@logout');
 });

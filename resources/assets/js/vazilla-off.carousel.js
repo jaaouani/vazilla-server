@@ -5,8 +5,8 @@ export default class VazillaOffCarousel extends Component {
     render() {
         return (
             <section className="carousel slide" id="vazilla-carousel" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#vazilla-carousel" data-slide-to="0" class="active"></li>
+              <ol className="carousel-indicators">
+                <li data-target="#vazilla-carousel" data-slide-to="0" className="active"></li>
                 <li data-target="#vazilla-carousel" data-slide-to="1"></li>
                 <li data-target="#vazilla-carousel" data-slide-to="2"></li>
               </ol>
