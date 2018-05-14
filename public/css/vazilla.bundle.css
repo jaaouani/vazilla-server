@@ -15628,6 +15628,22 @@ a.text-dark:focus {
 
 #vazilla-nav-content .navbar-nav .nav-item .cart-btn {
   padding: 0px;
+  position: relative;
+  top: 2px;
+  border: 0px;
+  -webkit-box-shadow: 0px;
+          box-shadow: 0px;
+}
+
+#vazilla-nav-content .navbar-nav .nav-item .cart-btn:before {
+  font-family: FontAwesome;
+  content: '\F078';
+  position: relative;
+  right: 5px;
+}
+
+#vazilla-nav-content .navbar-nav .nav-item .cart-btn:after {
+  display: none;
 }
 
 #vazilla-nav-content .navbar-nav .nav-item .cart-btn .fa {

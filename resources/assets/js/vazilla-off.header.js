@@ -11,8 +11,8 @@ export default class VazillaOffHeader extends Component {
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#vazilla-nav-content" aria-controls="vazilla-nav-content" aria-expanded="false" aria-label="Toggle navigation"><span className="fa fa-ellipsis-h"></span></button>
                         <div className="collapse navbar-collapse" id="vazilla-nav-content">
                             <ul className="navbar-nav mr-auto">
-                                <li className="nav-item dropdown"><button type="button" className="btn dropdown-toggle cart-btn" role="button" id="btn-basket" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="fa fa-shopping-basket"></span><span className="badge badge-primary">0</span></button>
-                                    <div className="dropdown-menu" id="cart-dropdown" aria-labelledby="cart-dropdown">
+                                <li className="nav-item dropdown"><a className="nav-link dropdown-toggle cart-btn" role="button" id="btn-basket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="fa fa-shopping-basket"></span><span className="badge badge-primary">0</span></a>
+                                    <div className="dropdown-menu" id="cart-dropdown" aria-labelledby="btn-basket">
                                     </div>
                                 </li>
                             </ul>
