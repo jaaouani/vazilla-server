@@ -716,6 +716,8 @@ module.exports = emptyFunction;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -737,6 +739,8 @@ var VazillaOffHeader = function (_Component) {
     _createClass(VazillaOffHeader, [{
         key: 'render',
         value: function render() {
+            var _React$createElement;
+
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'header',
                 { id: 'vazilla-header' },
@@ -774,17 +778,18 @@ var VazillaOffHeader = function (_Component) {
                                 { className: 'navbar-nav mr-auto' },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'li',
-                                    { className: 'nav-item' },
+                                    { className: 'nav-item dropdown' },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'button',
-                                        { type: 'button', className: 'btn', id: 'btn-basket' },
+                                        (_React$createElement = { type: 'button', className: 'btn dropdown-toggle cart-btn', role: 'button', id: 'btn-basket' }, _defineProperty(_React$createElement, 'type', 'button'), _defineProperty(_React$createElement, 'data-toggle', 'dropdown'), _defineProperty(_React$createElement, 'aria-haspopup', 'true'), _defineProperty(_React$createElement, 'aria-expanded', 'false'), _React$createElement),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'fa fa-shopping-basket' }),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'span',
                                             { className: 'badge badge-primary' },
                                             '0'
                                         )
-                                    )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'dropdown-menu', id: 'cart-dropdown', 'aria-labelledby': 'cart-dropdown' })
                                 )
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -813,13 +818,13 @@ var VazillaOffHeader = function (_Component) {
                                     { className: 'nav-item dropdown' },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'a',
-                                        { className: 'nav-link dropdown-toggle', href: '#', id: 'dropdown-language', role: 'button', 'data-toggle': 'dropdown', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
+                                        { className: 'nav-link dropdown-toggle', id: 'dropdown-language', role: 'button', 'data-toggle': 'dropdown', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'flag-icon flag-icon-fr' }),
                                         '\xA0Fran\xE7ais'
                                     ),
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'div',
-                                        { className: 'dropdown-menu', 'aria-labelledby': 'navbarDropdown' },
+                                        { className: 'dropdown-menu', 'aria-labelledby': 'dropbown-language' },
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'a',
                                             { className: 'dropdown-item' },

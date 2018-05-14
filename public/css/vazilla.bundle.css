@@ -15626,15 +15626,15 @@ a.text-dark:focus {
   color: #000000;
 }
 
-#btn-basket {
+#vazilla-nav-content .navbar-nav .nav-item .cart-btn {
   padding: 0px;
 }
 
-#btn-basket .fa {
+#vazilla-nav-content .navbar-nav .nav-item .cart-btn .fa {
   font-size: 14px;
 }
 
-#btn-basket .badge {
+#vazilla-nav-content .navbar-nav .nav-item .cart-btn .badge {
   position: relative;
   font-size: 10px;
   z-index: 10;

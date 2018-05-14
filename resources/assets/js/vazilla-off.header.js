@@ -11,14 +11,17 @@ export default class VazillaOffHeader extends Component {
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#vazilla-nav-content" aria-controls="vazilla-nav-content" aria-expanded="false" aria-label="Toggle navigation"><span className="fa fa-ellipsis-h"></span></button>
                         <div className="collapse navbar-collapse" id="vazilla-nav-content">
                             <ul className="navbar-nav mr-auto">
-                                <li className="nav-item"><button type="button" className="btn" id="btn-basket"><span className="fa fa-shopping-basket"></span><span className="badge badge-primary">0</span></button></li>
+                                <li className="nav-item dropdown"><button type="button" className="btn dropdown-toggle cart-btn" role="button" id="btn-basket" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="fa fa-shopping-basket"></span><span className="badge badge-primary">0</span></button>
+                                    <div className="dropdown-menu" id="cart-dropdown" aria-labelledby="cart-dropdown">
+                                    </div>
+                                </li>
                             </ul>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item"><a className="nav-link" href="/login">Se Connecter</a></li>
                                 <li className="nav-item"><a className="nav-link register-link" href="/register">Créer un compte</a></li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="dropdown-language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flag-icon flag-icon-fr"></span>&nbsp;Français</a>
-                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a className="nav-link dropdown-toggle" id="dropdown-language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flag-icon flag-icon-fr"></span>&nbsp;Français</a>
+                                    <div className="dropdown-menu" aria-labelledby="dropbown-language">
                                         <a className="dropdown-item"><span className="flag-icon flag-icon-us"></span>&nbsp;English</a>
                                     </div>
                                 </li>
