@@ -2,15 +2,16 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use Laravel\Passport\HasApiTokens;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Admin extends Model
-{
+class Admin extends Authenticatable {
+    
+    use HasApiTokens, Notifiable;
+
     protected $table = 'admins';
 
-    protected $fillable = [
-        'email', 'token', 'password'
-    ];
-
-    protected $hidden = [ 'password' ];
+    protected $fillable = [ 'email', 'token', 'password', 'fullname' ];
+    protected $hidden = [ 'password', 'remember_token' ];
 }

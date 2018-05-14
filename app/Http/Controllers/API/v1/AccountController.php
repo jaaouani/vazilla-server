@@ -24,7 +24,7 @@ class AccountController extends Controller {
             $request = $this->request->create('/oauth/token', 'POST', $this->request->all());
             $this->request->request->add([ 'client_id' => 2, 'client_secret' => $this->client->secret,
                 'grant_type' => 'password', 'scope' => '*', 'username' => $this->request->input('email'),
-                'password' => $this->request->input('password')
+                'password' => $this->request->input('password'), 'provider' => 'api'
             ]); $response = Route::dispatch($request); return response()->json(['status' => 'success', 'message' => json_decode((string) $response->getContent(), true)], 200);
         } else { return response()->json(['status' => 'error', 'message' => $this->validator->errors()->first()], 401); }
     }
