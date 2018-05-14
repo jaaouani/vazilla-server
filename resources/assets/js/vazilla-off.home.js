@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import VazillaOffHeader from './vazilla-off.header';
+import VazillaOffCarousel from './vazilla-off.carousel';
 
 export default class VazillaOffHome extends Component {
     render() {
         return (
-            <div>
+            <div id="vazilla-wrapper">
                 <VazillaOffHeader />
+                <VazillaOffCarousel />
             </div>
         );
     }

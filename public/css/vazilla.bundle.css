@@ -15658,3 +15658,21 @@ a.text-dark:focus {
   top: -10px;
 }
 
+#vazilla-wrapper .carousel {
+  position: relative;
+  top: 10px;
+}
+
+#vazilla-wrapper .carousel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 40vh;
+}
+
+#vazilla-carousel .carousel-inner .carousel-item img {
+  max-height: 40vh;
+  height: auto;
+  width: 100vw;
+}
+
