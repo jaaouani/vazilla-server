@@ -17,7 +17,7 @@ export default class VazillaOffHeader extends Component {
                                 <li className="nav-item"><a className="nav-link" href="/login">Se Connecter</a></li>
                                 <li className="nav-item"><a className="nav-link register-link" href="/register">Créer un compte</a></li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="dropdown-language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flag-icon flag-icon-fr"></span></a>
+                                    <a className="nav-link dropdown-toggle" href="#" id="dropdown-language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flag-icon flag-icon-fr"></span>&nbsp;Français</a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a className="dropdown-item"><span className="flag-icon flag-icon-us"></span>&nbsp;English</a>
                                     </div>
