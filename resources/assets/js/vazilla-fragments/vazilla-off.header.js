@@ -1,9 +1,10 @@
-import React, { Component, Link } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 export default class VazillaOffHeader extends Component {
     render() {
         return (
+        <React.Fragment>
             <header id="vazilla-header">
                 <nav className="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm" id="vazilla-off-navbar">
                     <div className="container">
@@ -17,12 +18,12 @@ export default class VazillaOffHeader extends Component {
                                 </li>
                             </ul>
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item"><a className="nav-link" href="/login">Se Connecter</a></li>
-                                <li className="nav-item"><a className="nav-link register-link" href="/register">Créer un compte</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/login">Login</a></li>
+                                <li className="nav-item"><a className="nav-link register-link" href="/register">Register</a></li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" id="dropdown-language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flag-icon flag-icon-fr"></span>&nbsp;Français</a>
+                                    <a className="nav-link dropdown-toggle" id="dropdown-language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span className="flag-icon flag-icon-gb"></span>&nbsp;English</a>
                                     <div className="dropdown-menu" aria-labelledby="dropbown-language">
-                                        <a className="dropdown-item"><span className="flag-icon flag-icon-us"></span>&nbsp;English</a>
+                                        <a className="dropdown-item"><span className="flag-icon flag-icon-fr"></span>&nbsp;French</a>
                                     </div>
                                 </li>
                             </ul>
@@ -30,6 +31,7 @@ export default class VazillaOffHeader extends Component {
                     </div>
                 </nav>
             </header>
+        </React.Fragment>
         );
     }
 }

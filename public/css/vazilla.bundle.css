@@ -15791,3 +15791,229 @@ a.text-dark:focus {
   font-weight: bold;
 }
 
+/* account login form */
+
+#off-login-form-container {
+  position: relative;
+  top: 100px;
+}
+
+#off-login-form-container .off-login-form .password-group {
+  position: relative;
+  top: -20px;
+}
+
+#off-login-form-container .off-login-form .form-label-group input {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  font-family: 'Nunito Bold', Arial, Helvetica, sans-serif;
+}
+
+#off-login-form-container .off-login-form {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px;
+  margin: auto;
+}
+
+#off-login-form-container .off-login-form .form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#off-login-form-container .off-login-form .form-label-group > input,
+#admin-login-form-container .admin-login-form .form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+#off-login-form-container .off-login-form .form-label-group > label {
+  position: relative;
+  top: -30px;
+  left: 30px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #0084ff;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  font-family: 'Nunito Semi Bold', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#off-login-form-container .off-login-form .form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#off-login-form-container .off-login-form .form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+#off-login-form-container .off-login-form .form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+#off-login-form-container .off-login-form .form-label-group input::placeholder {
+  color: transparent;
+}
+
+#off-login-form-container .off-login-form .form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  padding-top: 13px;
+}
+
+#off-login-form-container .off-login-form .form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  top: -38px;
+  bottom: 15px;
+  font-size: 10px;
+  color: #0084ff;
+  font-family: 'Nunito Bold', Arial, Helvetica, sans-serif;
+}
+
+#off-login-form-container .off-login-form .form-label-group input {
+  height: 40px;
+  padding-left: 40px;
+  padding-top: 13px;
+}
+
+#off-login-form-container .off-login-form .form-label-group input:focus + label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  top: -38px;
+  bottom: 15px;
+  font-size: 8px;
+  color: #0084ff;
+  font-family: 'Nunito Bold', Arial, Helvetica, sans-serif;
+}
+
+#off-login-form-container .off-login-form .btn {
+  position: relative;
+  top: -45px;
+  font-family: 'Nunito Extra Bold', Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+}
+
+#off-login-form-container .off-login-form .btn .fa {
+  font-weight: bold;
+}
+
+/* account register form */
+
+#off-register-form-container {
+  position: relative;
+  top: 100px;
+}
+
+#off-register-form-container .off-register-form .password-group,
+#off-register-form-container .off-register-form .fullname-group {
+  margin-top: -28px;
+}
+
+#off-register-form-container .off-register-form .form-label-group input {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  font-family: 'Nunito Bold', Arial, Helvetica, sans-serif;
+}
+
+#off-register-form-container .off-register-form {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px;
+  margin: auto;
+}
+
+#off-register-form-container .off-register-form .form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#off-register-form-container .off-register-form .form-label-group > input,
+#admin-login-form-container .admin-login-form .form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+#off-register-form-container .off-register-form .form-label-group > label {
+  position: relative;
+  top: -30px;
+  left: 30px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #0084ff;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  font-family: 'Nunito Semi Bold', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#off-register-form-container .off-register-form .form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#off-register-form-container .off-register-form .form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+#off-register-form-container .off-register-form .form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+#off-register-form-container .off-register-form .form-label-group input::placeholder {
+  color: transparent;
+}
+
+#off-register-form-container .off-register-form .form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  padding-top: 13px;
+}
+
+#off-register-form-container .off-register-form .form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  top: -38px;
+  bottom: 15px;
+  font-size: 10px;
+  color: #0084ff;
+  font-family: 'Nunito Bold', Arial, Helvetica, sans-serif;
+}
+
+#off-register-form-container .off-register-form .form-label-group input {
+  height: 40px;
+  padding-left: 40px;
+  padding-top: 13px;
+}
+
+#off-register-form-container .off-register-form .form-label-group input:focus + label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  top: -38px;
+  bottom: 15px;
+  font-size: 8px;
+  color: #0084ff;
+  font-family: 'Nunito Bold', Arial, Helvetica, sans-serif;
+}
+
+#off-register-form-container .off-register-form .btn {
+  position: relative;
+  top: -15px;
+  font-family: 'Nunito Extra Bold', Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+}
+
+#off-register-form-container .off-register-form .btn .fa {
+  font-weight: bold;
+}
+

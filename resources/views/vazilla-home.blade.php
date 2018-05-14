@@ -9,7 +9,8 @@
         <title>Vazilla | @yield('title')</title>
     </head>
     <body>
-        @yield('content')
+        <div id="vazilla-root">
+        </div>
         <script src="{{ asset('js/vazilla.bundle.js') }}" type="text/javascript"></script>
     </body>
 </html>
