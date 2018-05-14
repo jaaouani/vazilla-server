@@ -6,7 +6,7 @@ import VazillaOffHeader from './vazilla-off.header';
 export default class VazillaOffHome extends Component {
     render() {
         return (
-            <div className="container">
+            <div>
                 <VazillaOffHeader />
             </div>
         );

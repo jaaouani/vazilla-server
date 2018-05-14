@@ -739,16 +739,16 @@ var VazillaOffHeader = function (_Component) {
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'header',
-                { id: 'vazilla-header', className: 'py-1' },
+                { id: 'vazilla-header' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'container' },
+                    'nav',
+                    { className: 'navbar navbar-expand-lg navbar-expand-md navbar-expand-sm', id: 'vazilla-off-navbar' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'nav',
-                        { className: 'navbar navbar-expand-md', id: 'vazilla-off-navbar' },
+                        'div',
+                        { className: 'container' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'a',
-                            { className: 'navbar-brand' },
+                            { className: 'navbar-brand', href: '/' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'span',
                                 { className: 'f-box' },
@@ -759,6 +759,74 @@ var VazillaOffHeader = function (_Component) {
                                 'span',
                                 { className: 's-box' },
                                 '://a'
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'button',
+                            { className: 'navbar-toggler', type: 'button', 'data-toggle': 'collapse', 'data-target': '#vazilla-nav-content', 'aria-controls': 'vazilla-nav-content', 'aria-expanded': 'false', 'aria-label': 'Toggle navigation' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'fa fa-ellipsis-h' })
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'collapse navbar-collapse', id: 'vazilla-nav-content' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'ul',
+                                { className: 'navbar-nav mr-auto' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    { className: 'nav-item' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'button',
+                                        { type: 'button', className: 'btn', id: 'btn-basket' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'fa fa-shopping-basket' }),
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'span',
+                                            { className: 'badge badge-primary' },
+                                            '0'
+                                        )
+                                    )
+                                )
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'ul',
+                                { className: 'navbar-nav ml-auto' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    { className: 'nav-item' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'a',
+                                        { className: 'nav-link', href: '/login' },
+                                        'Se Connecter'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    { className: 'nav-item' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'a',
+                                        { className: 'nav-link register-link', href: '/register' },
+                                        'Cr\xE9er un compte'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    { className: 'nav-item dropdown' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'a',
+                                        { className: 'nav-link dropdown-toggle', href: '#', id: 'dropdown-language', role: 'button', 'data-toggle': 'dropdown', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'flag-icon flag-icon-fr' })
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'div',
+                                        { className: 'dropdown-menu', 'aria-labelledby': 'navbarDropdown' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'a',
+                                            { className: 'dropdown-item' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'flag-icon flag-icon-us' }),
+                                            '\xA0English'
+                                        )
+                                    )
+                                )
                             )
                         )
                     )
@@ -36421,7 +36489,7 @@ var VazillaOffHome = function (_Component) {
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'container' },
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__vazilla_off_header__["a" /* default */], null)
             );
         }
@@ -54982,7 +55050,7 @@ var VazillaOffLogin = function (_Component) {
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'container' },
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__vazilla_off_header__["a" /* default */], null)
             );
         }
@@ -55035,7 +55103,7 @@ var VazillaOffRegister = function (_Component) {
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'container' },
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__vazilla_off_header__["a" /* default */], null)
             );
         }
