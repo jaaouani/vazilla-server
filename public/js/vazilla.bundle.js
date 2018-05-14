@@ -55316,16 +55316,16 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var VazillaAdminLogin = function (_Component) {
-    _inherits(VazillaAdminLogin, _Component);
+var VazillaAdminForgot = function (_Component) {
+    _inherits(VazillaAdminForgot, _Component);
 
-    function VazillaAdminLogin() {
-        _classCallCheck(this, VazillaAdminLogin);
+    function VazillaAdminForgot() {
+        _classCallCheck(this, VazillaAdminForgot);
 
-        return _possibleConstructorReturn(this, (VazillaAdminLogin.__proto__ || Object.getPrototypeOf(VazillaAdminLogin)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (VazillaAdminForgot.__proto__ || Object.getPrototypeOf(VazillaAdminForgot)).apply(this, arguments));
     }
 
-    _createClass(VazillaAdminLogin, [{
+    _createClass(VazillaAdminForgot, [{
         key: 'render',
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -55336,12 +55336,12 @@ var VazillaAdminLogin = function (_Component) {
         }
     }]);
 
-    return VazillaAdminLogin;
+    return VazillaAdminForgot;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (VazillaAdminLogin);
+/* harmony default export */ __webpack_exports__["default"] = (VazillaAdminForgot);
 
-if (document.getElementById('vazilla-admin-login')) {
+if (document.getElementById('vazilla-admin-forgot')) {
     __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(VazillaAdminForgot, null), document.getElementById('vazilla-admin-forgot'));
 }
 

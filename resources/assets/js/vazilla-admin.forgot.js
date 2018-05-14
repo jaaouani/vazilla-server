@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import VazillaAdminHeader from './vazilla-admin.header';
 
-export default class VazillaAdminLogin extends Component {
+export default class VazillaAdminForgot extends Component {
     render() {
         return (
             <div>
@@ -12,4 +12,4 @@ export default class VazillaAdminLogin extends Component {
         );
     }
 }
-if (document.getElementById('vazilla-admin-login')) { ReactDOM.render(<VazillaAdminForgot />, document.getElementById('vazilla-admin-forgot')); }
+if (document.getElementById('vazilla-admin-forgot')) { ReactDOM.render(<VazillaAdminForgot />, document.getElementById('vazilla-admin-forgot')); }
